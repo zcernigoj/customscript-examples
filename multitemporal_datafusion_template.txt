@@ -1,6 +1,6 @@
 //VERSION=3
-// multitemporal by Harel Dan with data fusion
-// ADVANCED
+// multitemporal with data fusion
+// WARNING: CAN HAVE MISTAKES
 
 var setup = () => ({
   input: [
