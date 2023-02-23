@@ -1,5 +1,7 @@
 # evaluatePixel
 
+* [first param (usually named `samples`):](#first-param--usually-named--samples---)
+* [second parameter (usually named `inputData`)](#second-parameter--usually-named--inputdata--)
 
 ## first param (usually named `samples`):
 
