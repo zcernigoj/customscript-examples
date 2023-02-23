@@ -1,4 +1,4 @@
-# evaluatePixel
+# parameters for `evaluatePixel()` function
 
 * [first param (usually named `samples`)](#first-param-usually-named-samples)
     - [no datafusion, no multitemporal](#no-datafusion-no-multitemporal)
