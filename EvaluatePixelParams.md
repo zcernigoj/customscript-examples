@@ -1,11 +1,20 @@
 # evaluatePixel
 
-* [first param (usually named `samples`):](#first-param--usually-named--samples---)
-* [second parameter (usually named `inputData`)](#second-parameter--usually-named--inputdata--)
+* [first param (usually named `samples`)](#first-param-usually-named-samples)
+    - [no datafusion, no multitemporal](#no-datafusion-no-multitemporal)
+    - [datafusion, no multitemporal](#datafusion-no-multitemporal)
+    - [no datafusion, multitemporal](#no-datafusion-multitemporal)
+    - [datafusion, multitemporal](#datafusion-multitemporal)
+* [second parameter (usually named `inputData`)](#second-parameter-usually-named-inputdata)
+    - [no datafusion, no multitemporal](#no-datafusion-no-multitemporal-1)
+    - [datafusion, no multitemporal](#datafusion-no-multitemporal-1)
+    - [no datafusion, multitemporal](#no-datafusion-multitemporal-1)
+    - [datafusion, multitemporal](#datafusion-multitemporal-1)
 
-## first param (usually named `samples`):
 
-- no datafusion, no multitemporal
+## first param (usually named `samples`)
+
+#### no datafusion, no multitemporal
 
 ```json
 {
@@ -15,7 +24,7 @@
 }
 ```
 
-- datafusion, no multitemporal
+#### datafusion, no multitemporal
 
 ```json
 {
@@ -32,7 +41,7 @@
 }
 ```
 
-- no datafusion, multitemporal
+#### no datafusion, multitemporal
 
 ```json
 {
@@ -42,7 +51,7 @@
 }
 ```
 
-- datafusion, multitemporal
+#### datafusion, multitemporal
 
 ```json
 {
@@ -183,7 +192,7 @@
 
 ## second parameter (usually named `inputData`)
 
-- no datafusion, no multitemporal
+#### no datafusion, no multitemporal
 
 ```json
 {
@@ -196,7 +205,7 @@
 }
 ```
 
-- datafusion, no multitemporal
+#### datafusion, no multitemporal
 
 ```json
 {
@@ -211,7 +220,7 @@
 }
 ```
 
-- no datafusion, multitemporal
+#### no datafusion, multitemporal
 
 ```json
 {
@@ -224,7 +233,7 @@
 }
 ```
 
-- datafusion, multitemporal
+#### datafusion, multitemporal
 
 ```json
 {
