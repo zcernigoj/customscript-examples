@@ -16,6 +16,9 @@
 
 #### no datafusion, no multitemporal
 
+<details>
+  <summary>click to expand</summary>
+
 ```json
 {
   "B03": 0,
@@ -23,8 +26,14 @@
   "dataMask": 0
 }
 ```
+</details>
+
+
 
 #### datafusion, no multitemporal
+
+<details>
+  <summary>click to expand</summary>
 
 ```json
 {
@@ -40,8 +49,12 @@
   "S1GRD": []
 }
 ```
+</details>
 
 #### no datafusion, multitemporal
+
+<details>
+  <summary>click to expand</summary>
 
 ```json
 {
@@ -50,8 +63,12 @@
   "dataMask": 1
 }
 ```
+</details>
 
 #### datafusion, multitemporal
+
+<details>
+  <summary>click to expand</summary>
 
 ```json
 {
@@ -188,11 +205,14 @@
   ]
 }
 ```
-
+</details>
 
 ## second parameter (usually named `inputData`)
 
 #### no datafusion, no multitemporal
+
+<details>
+  <summary>click to expand</summary>
 
 ```json
 {
@@ -204,8 +224,12 @@
   ]
 }
 ```
+</details>
 
 #### datafusion, no multitemporal
+
+<details>
+  <summary>click to expand</summary>
 
 ```json
 {
@@ -219,8 +243,12 @@
   }
 }
 ```
+</details>
 
 #### no datafusion, multitemporal
+
+<details>
+  <summary>click to expand</summary>
 
 ```json
 {
@@ -232,8 +260,12 @@
   ]
 }
 ```
+</details>
 
 #### datafusion, multitemporal
+
+<details>
+  <summary>click to expand</summary>
 
 ```json
 {
@@ -435,3 +467,4 @@
   }
 }
 ```
+</details>
